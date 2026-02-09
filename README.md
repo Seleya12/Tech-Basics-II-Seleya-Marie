@@ -18,7 +18,7 @@ The game measures reaction time and visually indicates the winner.
 ## How to Run
 1. Connect the hardware components according to the pin assignments described in the process
 2. documentation.
-3. Upload the Arduino code from `arduino/code.ino` to the Arduino Uno.
+3. Upload the Arduino code from `arduino/game_code.ino` to the Arduino Uno.
 4. Power the Arduino via USB connection.
 5. Use the start button to select a game level and begin playing.
 
