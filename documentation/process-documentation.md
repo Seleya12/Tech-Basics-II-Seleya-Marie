@@ -57,6 +57,7 @@ Reaction times are measured, and the winner is visually indicated using LEDs.
 The project was developed iteratively, starting with a simplified prototype.  
 For the initial prototype and presentation, the game was implemented using two buttons and 
 two LEDs per player to demonstrate the core gameplay concept and interaction logic.
+![IMG_5579](https://github.com/user-attachments/assets/32db5b87-a3a7-46bb-9ae8-a1b09379cda8)
 
 After successfully presenting and testing the prototype, the project was expanded to include
 three buttons and three LEDs per controller.  
@@ -64,6 +65,8 @@ This extension improved gameplay clarity and variety and aligned the project wit
 requirements.  
 Both the hardware setup and the code were continuously tested and adjusted to ensure reliable
 input detection and fair gameplay for both players.
+![IMG_6131](https://github.com/user-attachments/assets/1123c229-b12d-40a9-868a-aa17417ab544)
+
 
 ---
 
