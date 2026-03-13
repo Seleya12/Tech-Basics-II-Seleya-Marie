@@ -7,6 +7,7 @@ reaction time, pattern recognition, and user interaction.
 Two players compete against each other using individual controllers with buttons and LEDs,
 while the system measures reaction speed and determines a winner visually.
 We used this as a refrence: https://www.instructables.com/Reaction-Time-Game-With-Arduino-Uno/?utm
+
 ---
 
 ## 2. Hardware Setup
