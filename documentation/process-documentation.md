@@ -6,7 +6,7 @@ The goal of the project was to create a simple but competitive physical game tha
 reaction time, pattern recognition, and user interaction.  
 Two players compete against each other using individual controllers with buttons and LEDs,
 while the system measures reaction speed and determines a winner visually.
-
+We used this as a refrence: https://www.instructables.com/Reaction-Time-Game-With-Arduino-Uno/?utm
 ---
 
 ## 2. Hardware Setup
@@ -71,30 +71,36 @@ input detection and fair gameplay for both players.
 ---
 
 ## 5. Challenges & Solutions
-During the development of the project, several technical and practical challenges occurred.
+During the development of the project we encountered  several technical and practical
+challenges occurred.
 
 One issue concerned the LEDs, which initially did not behave as expected. This was caused by
-incorrect LED polarity during wiring. The problem was resolved by correcting the orientation
-of the LEDs and verifying the connections using a simple LED test program.
+incorrect LED polarity during wiring. After identifying the problem, we corrected the
+orientation of the LEDs and verified the connections using a simple LED test program.
 
 Another challenge was identifying a suitable power source for the system. While alternative
-power options were considered, the project is currently powered via USB connection to a
-computer. This solution was chosen to ensure a stable and reliable power supply during
-operation and testing.
+power options were considered, the project is currently powered via a USB connection to a
+computer. This solution was chosen because the powerbank just did not want to work.
 
-Additionally, space limitations on the breadboards posed challenges during the hardware
-setup. The available space was more limited than anticipated, which led to cable congestion
-during early stages of the build. This issue was addressed by reorganizing the layout and
-switching to shorter jumper cables, resulting in a cleaner and more stable wiring
-configuration.
-
+Additionally, space limitations on the breadboards made the hardware setup more difficult
+than expected. The available space was limited, which led to cable congestion during the
+early stages of the build. To solve this issue, we reorganized the layout and replaced some
+cables with shorter jumper wires. This resulted in a cleaner setup and reduced the risk of
+loose or incorrect connections.
 
 ---
 
 ## 6. Final Result
-The final result is a fully functional two-player Arduino game with multiple difficulty
-levels.  
-The system reliably detects user input, measures reaction time, and visually communicates
-game outcomes.  
-A demo video demonstrates two players competing against each other and shows the complete
-gameplay flow.
+The final result is a fully functional two-player Arduino reaction and memory game with
+multiple difficulty levels.
+
+The system reliably detects button inputs, activates LEDs, measures reaction times, and
+determines a winner between the two players. The different levels add variety to the
+gameplay, starting with a simple reaction challenge and gradually introducing memory-based
+sequences that make the game more challenging.
+
+Overall, during the project we mainly focused on two core elements: LEDs and buttons. Rather
+than adding many different components, we tried to specialize in these two and really
+understand how they work. 
+
+A demo video shows two players competing against each other and demonstrates the full gameplay process, including level selection, LED signals, and the final result of each round.
