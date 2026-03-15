@@ -55,39 +55,25 @@ Reaction times are measured, and the winner is visually indicated using LEDs.
 ---
 
 ## 4. Development Process
-The project was developed iteratively, starting with a simplified prototype.  
-For the initial prototype and presentation, the game was implemented using two buttons and 
-two LEDs per player to demonstrate the core gameplay concept and interaction logic.
+The project was developed iteratively, starting with a simplified prototype.
+For the initial prototype and presentation, we first recreated a provided example to familiarize ourselves with the hardware setup and programming environment. The example implemented a simple reaction game (Game 1). Rebuilding this version allowed us to understand the basic interaction logic and ensure that the core components worked before developing our own extended version of the project.
 ![IMG_5579](https://github.com/user-attachments/assets/32db5b87-a3a7-46bb-9ae8-a1b09379cda8)
 
-After successfully presenting and testing the prototype, the project was expanded to include
-three buttons and three LEDs per controller.  
-This extension improved gameplay clarity and variety and aligned the project with the final
-requirements.  
-Both the hardware setup and the code were continuously tested and adjusted to ensure reliable
-input detection and fair gameplay for both players.
+After successfully presenting and testing the prototype, the project was further developed. At a later stage, Seleya extended the hardware setup by adding a third button and LED per controller and replacing the longer cables with shorter ones to make the wiring more organized and easier to manage.
+At that time, Marie was already in Hong Kong, which made the collaboration slightly more challenging. Seleya documented and shared the pin configuration and hardware setup so that Marie could adapt the code accordingly. The code was then tested and adjusted multiple times, requiring several iterations and exchanges until the final version of the game functioned reliably.
 ![IMG_6131](https://github.com/user-attachments/assets/1123c229-b12d-40a9-868a-aa17417ab544)
 
 
 ---
 
 ## 5. Challenges & Solutions
-During the development of the project we encountered  several technical and practical
-challenges occurred.
+During the development of the project, several technical and practical challenges occurred. In addition, collaboration became more complex because Marie was already in Hong Kong during part of the development phase, which meant that communication and testing had to take place remotely.
 
-One issue concerned the LEDs, which initially did not behave as expected. This was caused by
-incorrect LED polarity during wiring. After identifying the problem, we corrected the
-orientation of the LEDs and verified the connections using a simple LED test program.
+One issue concerned the LEDs, which initially did not behave as expected. This was caused by incorrect LED polarity during wiring. After identifying the problem, we corrected the orientation of the LEDs and verified the connections using a simple LED test program.
 
-Another challenge was identifying a suitable power source for the system. While alternative
-power options were considered, the project is currently powered via a USB connection to a
-computer. This solution was chosen because the powerbank just did not want to work.
+Another challenge was identifying a suitable power source for the system. While alternative power options were considered, the project is currently powered via a USB connection to a computer. This solution was chosen because the powerbank did not work reliably.
 
-Additionally, space limitations on the breadboards made the hardware setup more difficult
-than expected. The available space was limited, which led to cable congestion during the
-early stages of the build. To solve this issue, we reorganized the layout and replaced some
-cables with shorter jumper wires. This resulted in a cleaner setup and reduced the risk of
-loose or incorrect connections.
+Additionally, space limitations on the breadboards made the hardware setup more difficult than expected. The available space was limited, which led to cable congestion during the early stages of the build. To solve this issue, we reorganized the layout and replaced some cables with shorter jumper wires. This resulted in a cleaner setup and reduced the risk of loose or incorrect connections.
 
 ---
 
@@ -95,7 +81,7 @@ loose or incorrect connections.
 The final result is a fully functional two-player Arduino reaction and memory game with
 multiple difficulty levels.
 
-The system reliably detects button inputs, activates LEDs, measures reaction times, and
+The system reliably detects button inputs, activates LEDs,  and
 determines a winner between the two players. The different levels add variety to the
 gameplay, starting with a simple reaction challenge and gradually introducing memory-based
 sequences that make the game more challenging.
